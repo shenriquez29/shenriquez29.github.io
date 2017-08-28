@@ -1,0 +1,274 @@
+body{
+    font-family: 'Lora', sans-serif;
+    font-family: 'Bubbler One', sans-serif;
+}
+
+/* LANDING */
+.navbar {
+    font-size: 14px;
+}
+
+#nametitle {
+    display: block;
+    background-color: #d19cff;
+    background-image: /*linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);*/ 
+    color: white;
+    text-align: center;
+    font-family:'Bubbler One', sans-serif;
+    height: 675px;
+    width: cover;
+}
+
+.navbar {
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+#title {
+    color:white;
+    font-weight: bold;
+    font-size: 90px;
+    text-align:center;
+    font-family: 'Bubbler One', sans-serif;
+    padding-top: 200px;
+}
+
+#subtitle {
+    font-weight:bold;
+    padding-bottom: 100px;
+    line-height: 2px;
+    font-family: 'Montserrat';
+}
+
+.scroll-down {
+    bottom: 80px;
+    display: block;
+    left: 50%;
+    height: 80px;
+    margin-left: -23px;
+    position: absolute;
+    width: 80px;
+    z-index: 200;
+    color:white;
+    font-size: 40pt;
+}
+
+.block {
+  	/*width: 800px;*/
+  	height: 7px;
+    background-color: #d19cff; 
+      /*
+    old purle line color :#b785a7
+  	background: #e55d87; 
+    background: -moz-linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  	background: -webkit-linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  	background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);*/ 
+  	margin-bottom: 50px;
+}
+
+/*ABOUT*/
+
+.container{
+    background: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    font-family: 'Lora',sans-serif;
+    line-height: 1.5;
+    /*background-color: #EAEBE8;*/
+}
+
+#about {
+    background-color: white;
+}
+
+#bio {
+    font-family: 'Lora',sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+#div-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    border-color: black;
+}
+
+#row {
+    padding-top: 50px;   
+}
+
+/*https://jsfiddle.net/Mi_Creativity/81ngace8/1/*/
+
+
+.skillbar {  /* Gray part of bar */
+    position:relative;
+    display:block;
+    top:100px;
+    margin-bottom:15px;
+    background:black;
+    height:50px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    font-weight:bold;
+    font-size:13px;
+    color:black;
+    font-family:'Lora', sans-serif;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    -moz-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.skillbar-title span { /* BOX WITH TITLE OF SKILL*/
+    display:block;
+    color: black;
+    font-color: white;
+    /*background: -moz-linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	  background: -webkit-linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    background:blue;rgba(0, 0, 0, 0.1);*/
+    padding:0 20px;
+    height:50px;
+    line-height:50px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    -moz-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.skillbar-bar {  /* MOVING BAR */ 
+    height:50px;
+    width:0px;
+    background:white;
+    border-radius:3px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    float: left;
+    
+}
+
+.containers {
+    min-height: 100%;
+    height: 500px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:15px;
+    height:50px;
+    line-height:35px;
+    color: white; 
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*SKILLS*/
+#skillsection {
+    color: black;
+      /*
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-bottom: 400px;*/
+    font-family: 'Bubbler One', sans-serif;
+    font-weight: bold;
+}
+
+#projects {
+    color:black;
+    font-family: 'Lora', sans-serif;
+}
+
+#hireme {   
+    background-color: white;
+    color: black;
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
+}
+
+.work-pic {
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+
+.email-link {
+    font-size: 20px;
+    color: black;
+}
+
+.resume-link {
+    font-size: 20px;
+    color: black;
+}
+
+.scroll-up {
+    color:white;
+    padding-left: 10px;
+}
+
+.foot-links {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#foot { 
+    background-color: #d19cff;
+    /* #b785a7; */
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 24px;
+    color: white;
+    width: auto;
+    /*text-align: center;*/
+}
+
+/* Gradients 
+background-image: linear-gradient(to top, #fad0c4 0%, #fad0c4 1%, #ffd1ff 100%);
+
+purple color on my resume  #d19cff
+
+*/
+
+
+
